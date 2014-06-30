@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nib2CSharp.iOS</RootNamespace>
+    <AssemblyName>Nib2CSharp.iOS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.ComponentModel.Composition.Codeplex">
+      <HintPath>Libraries\System.ComponentModel.Composition.Codeplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition.Registration">
+      <HintPath>Libraries\System.ComponentModel.Composition.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Context">
+      <HintPath>Libraries\System.Reflection.Context.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UITabBarItemProcessor.cs" />
+    <Compile Include="UITabBarProcessor.cs" />
+    <Compile Include="UITableViewCellProcessor.cs" />
+    <Compile Include="UITableViewProcessor.cs" />
+    <Compile Include="UITextFieldProcessor.cs" />
+    <Compile Include="UITextViewProcessor.cs" />
+    <Compile Include="UIScrollViewProcessor.cs" />
+    <Compile Include="UIToolbarProcessor.cs" />
+    <Compile Include="UIImageViewProcessor.cs" />
+    <Compile Include="UIDatePickerProcessor.cs" />
+    <Compile Include="UIButtonProcessor.cs" />
+    <Compile Include="UIBarButtonItemProcessor.cs" />
+    <Compile Include="UIBarItemProcessor.cs" />
+    <Compile Include="UISegmentedControlProcessor.cs" />
+    <Compile Include="UISearchBarProcessor.cs" />
+    <Compile Include="UIProgressViewProcessor.cs" />
+    <Compile Include="UIPickerViewProcessor.cs" />
+    <Compile Include="UIPageControlProcessor.cs" />
+    <Compile Include="UINavigationItemProcessor.cs" />
+    <Compile Include="MKMapViewProcessor.cs" />
+    <Compile Include="UIActivityIndicatorViewProcessor.cs" />
+    <Compile Include="UIControlProcessor.cs" />
+    <Compile Include="UILabelProcessor.cs" />
+    <Compile Include="NibProcessor.cs" />
+    <Compile Include="NSTextViewProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UINavigationBarProcessor.cs" />
+    <Compile Include="UISliderProcessor.cs" />
+    <Compile Include="UISwitchProcessor.cs" />
+    <Compile Include="UIViewProcessor.cs" />
+    <Compile Include="UIWebViewProcessor.cs" />
+    <Compile Include="XElementExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libraries\System.ComponentModel.Composition.Codeplex.dll" />
+    <Content Include="Libraries\System.ComponentModel.Composition.Codeplex.pdb" />
+    <Content Include="Libraries\System.ComponentModel.Composition.Codeplex.xml" />
+    <Content Include="Libraries\System.ComponentModel.Composition.Registration.dll" />
+    <Content Include="Libraries\System.ComponentModel.Composition.Registration.pdb" />
+    <Content Include="Libraries\System.Reflection.Context.dll" />
+    <Content Include="Libraries\System.Reflection.Context.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nib2CSharp.Core\Nib2CSharp.Core.csproj">
+      <Project>{D979C958-90A9-4F9D-94A9-432092063F63}</Project>
+      <Name>Nib2CSharp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

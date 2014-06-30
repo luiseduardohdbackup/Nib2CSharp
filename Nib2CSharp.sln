@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nib2CSharp.GUI", "Nib2CSharp.GUI\Nib2CSharp.GUI.csproj", "{35253BC0-0419-4CAA-B069-0AD89EAE2512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nib2CSharp.Core", "Nib2CSharp.Core\Nib2CSharp.Core.csproj", "{D979C958-90A9-4F9D-94A9-432092063F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nib2CSharp.iOS", "Nib2CSharp.iOS\Nib2CSharp.iOS.csproj", "{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nib2CSharp.Cocoa", "Nib2CSharp.Cocoa\Nib2CSharp.Cocoa.csproj", "{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|Any CPU.Build.0 = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|x86.ActiveCfg = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Debug|x86.Build.0 = Debug|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|Any CPU.ActiveCfg = Release|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|Any CPU.Build.0 = Release|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|Mixed Platforms.Build.0 = Release|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|x86.ActiveCfg = Release|x86
+		{35253BC0-0419-4CAA-B069-0AD89EAE2512}.Release|x86.Build.0 = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|Any CPU.Build.0 = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|x86.ActiveCfg = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Debug|x86.Build.0 = Debug|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|Any CPU.ActiveCfg = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|Any CPU.Build.0 = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|x86.ActiveCfg = Release|x86
+		{B0C265F0-5C2F-46A3-AA41-B9C57B3730A6}.Release|x86.Build.0 = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|Any CPU.Build.0 = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|x86.ActiveCfg = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Debug|x86.Build.0 = Debug|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|Any CPU.ActiveCfg = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|Any CPU.Build.0 = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|x86.ActiveCfg = Release|x86
+		{D979C958-90A9-4F9D-94A9-432092063F63}.Release|x86.Build.0 = Release|x86
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAF53818-1C51-477D-A762-5E9CA2BCC3BF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Nib2CSharp.GUI\Nib2CSharp.GUI.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
